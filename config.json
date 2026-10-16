@@ -1,0 +1,10 @@
+{
+  "provider_base": "https://vidsrc.to/embed",
+  "iptv_playlist_url": "https://iptv-org.github.io/iptv/index.category.m3u",
+  "tmdb_api_base": "https://api.themoviedb.org/3",
+  "tmdb_image_base": "https://image.tmdb.org",
+  "tmdb_api_key": "",
+  "subtitle_file": "",
+  "subtitle_label": "",
+  "subtitle_info": ""
+}
