@@ -1,6 +1,12 @@
 {
   "provider_base": "https://vidlink.pro",
   "players": [
+      {
+      "id": "vidapi",
+      "name": "VidAPI",
+      "movie": "https://vaplayer.ru/embed/movie/{tmdb_id}",
+      "tv": "https://vaplayer.ru/embed/tv/{tmdb_id}/{season}/{episode}"
+    },
     {
       "id": "vidlink",
       "name": "VidLink",
@@ -30,12 +36,6 @@
       "name": "VidSrc2",
       "movie": "https://vidsrc.ru/movie/{tmdb_id}",
       "tv": "https://vidsrc.ru/tv/{tmdb_id}/{season}/{episode}"
-    },
-    {
-      "id": "vidapi",
-      "name": "VidAPI",
-      "movie": "https://vaplayer.ru/embed/movie/{tmdb_id}",
-      "tv": "https://vaplayer.ru/embed/tv/{tmdb_id}/{season}/{episode}"
     },
     {
       "id": "2embed",
