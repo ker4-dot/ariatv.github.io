@@ -1,9 +1,59 @@
 {
-  "provider_base": "https://vidsrc.to/embed",
+  "provider_base": "https://vidlink.pro",
+  "players": [
+    {
+      "id": "vidlink",
+      "name": "VidLink",
+      "movie": "https://vidlink.pro/movie/{tmdb_id}",
+      "tv": "https://vidlink.pro/tv/{tmdb_id}/{season}/{episode}"
+    },
+    {
+      "id": "cinesrc",
+      "name": "CineSRC",
+      "movie": "https://cinesrc.st/embed/movie/{tmdb_id}",
+      "tv": "https://cinesrc.st/embed/tv/{tmdb_id}?s={season}&e={episode}"
+    },
+    {
+      "id": "vidsrc",
+      "name": "VidSrc",
+      "movie": "https://vidsrc.sh/embed/movie/{tmdb_id}",
+      "tv": "https://vidsrc.sh/embed/tv/{tmdb_id}/{season}/{episode}"
+    },
+    {
+      "id": "1src",
+      "name": "1Src",
+      "movie": "https://www.1src.org/embed/movie/{tmdb_id}",
+      "tv": "https://www.1src.org/embed/tv/{tmdb_id}/{season}/{episode}"
+    },
+    {
+      "id": "vidsrc2",
+      "name": "VidSrc2",
+      "movie": "https://vidsrc.ru/movie/{tmdb_id}",
+      "tv": "https://vidsrc.ru/tv/{tmdb_id}/{season}/{episode}"
+    },
+    {
+      "id": "vidapi",
+      "name": "VidAPI",
+      "movie": "https://vaplayer.ru/embed/movie/{tmdb_id}",
+      "tv": "https://vaplayer.ru/embed/tv/{tmdb_id}/{season}/{episode}"
+    },
+    {
+      "id": "2embed",
+      "name": "2Embed",
+      "movie": "https://www.2embed.cc/embed/{tmdb_id}",
+      "tv": "https://www.2embed.cc/embedtv/{tmdb_id}&s={season}&e={episode}"
+    },
+    {
+      "id": "vidy",
+      "name": "Vidy",
+      "movie": "https://www.vidy.st/movie/{tmdb_id}",
+      "tv": "https://www.vidy.st/tv/{tmdb_id}/{season}/{episode}"
+    }
+  ],
   "iptv_playlist_url": "https://iptv-org.github.io/iptv/index.category.m3u",
   "tmdb_api_base": "https://api.themoviedb.org/3",
   "tmdb_image_base": "https://image.tmdb.org",
-  "tmdb_api_key": "8df7228fc701c2dce74d2bca39239668",
+  "tmdb_api_key": "e547e17d4e91f3e62a571655cd1ccaff",
   "subtitle_file": "",
   "subtitle_label": "",
   "subtitle_info": ""
