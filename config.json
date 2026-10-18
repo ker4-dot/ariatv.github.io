@@ -1,7 +1,13 @@
 {
   "provider_base": "https://vidlink.pro",
   "players": [
-      {
+        {
+      "id": "cinesrc",
+      "name": "CineSRC",
+      "movie": "https://cinesrc.st/embed/movie/{tmdb_id}",
+      "tv": "https://cinesrc.st/embed/tv/{tmdb_id}?s={season}&e={episode}"
+    }, 
+    {
       "id": "vidapi",
       "name": "VidAPI",
       "movie": "https://vaplayer.ru/embed/movie/{tmdb_id}",
@@ -12,12 +18,6 @@
       "name": "VidLink",
       "movie": "https://vidlink.pro/movie/{tmdb_id}",
       "tv": "https://vidlink.pro/tv/{tmdb_id}/{season}/{episode}"
-    },
-    {
-      "id": "cinesrc",
-      "name": "CineSRC",
-      "movie": "https://cinesrc.st/embed/movie/{tmdb_id}",
-      "tv": "https://cinesrc.st/embed/tv/{tmdb_id}?s={season}&e={episode}"
     },
     {
       "id": "vidsrc",
