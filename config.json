@@ -4,8 +4,8 @@
     {
   "id": "embedmaster",
   "name": "EmbedMaster",
-  "movie": "https://embedmaster.link/v2s5komuyexy22yrnf/movie/{id}",
-  "tv": "https://embedmaster.link/v2s5komuyexy22yrnf/tv/{id}/{season}/{episode}"
+"movie": "https://embedmaster.link/v2s5komuyexy22yrnf/movie/{tmdb_id}",
+"tv": "https://embedmaster.link/v2s5komuyexy22yrnf/tv/{tmdb_id}/{season}/{episode}"
 },   
     {
       "id": "cinesrc",
